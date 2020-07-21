@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    height: 100%;
+}
+
+.container {
+    margin: auto;
+    padding: 1em;
+    width: 80%;
+}
+
+.destination-container {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
